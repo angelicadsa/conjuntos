@@ -92,3 +92,11 @@ def gerar_conjunto_B():
     	print("|A|:", modulo_A)
     	print("|B|:", modulo_B)
     	print("|A ∪ B|:", uniao_modulos)
+
+    	comando = input(
+        	"\nDigite 'again' ou 'novamente' para limpar e continuar.\n"
+       	 "Digite 'sair' ou 'exit' para encerrar.\n"
+    	).lower()
+
+    	if comando in ["sair", "exit"]:
+      	 break
