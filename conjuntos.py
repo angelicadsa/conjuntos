@@ -54,3 +54,9 @@ def gerar_conjunto_B():
             parar = input("Deseja parar? (s/n): ").lower()
             if parar == "s":
                 break
+
+ 	# Geração automática do conjunto B
+    	conjunto_B = gerar_conjunto_B()
+
+    	set_A = set(conjunto_A)
+    	set_B = set(conjunto_B)
