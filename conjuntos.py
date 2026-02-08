@@ -60,3 +60,35 @@ def gerar_conjunto_B():
 
     	set_A = set(conjunto_A)
     	set_B = set(conjunto_B)
+
+    	# Operações entre conjuntos
+    	uniao = set_A | set_B
+    	intersecao = set_A & set_B
+    	diferenca = set_A - set_B
+    	diferenca_BA = set_B - set_A
+    	delta = set_A ^ set_B  # diferença simétrica
+
+    	# Módulos
+    	modulo_A = len(set_A)
+    	modulo_B = len(set_B)
+    	uniao_modulos = {modulo_A, modulo_B}
+
+    	# Saída
+    	print("\n--- RESULTADO ---")
+    	print("Conjunto A:", set_A)
+    	print("Conjunto B:", set_B)
+
+    	print("\n(A ∪ B):", uniao)
+
+    	if intersecao:
+        	print("(A ∩ B):", intersecao)
+    	else:
+        	print("(A ∩ B): ∅")
+
+    	print("(A - B):", diferenca)
+    	print("(B - A):", diferenca_BA)
+    	print("(A Δ B):", delta)
+
+    	print("|A|:", modulo_A)
+    	print("|B|:", modulo_B)
+    	print("|A ∪ B|:", uniao_modulos)
