@@ -23,3 +23,34 @@ def gerar_conjunto_B():
             conjunto_B.append(elemento)
 
     return conjunto_B
+
+
+    conjunto_A = []
+
+    print("Entre com os valores do conjunto A:")
+
+
+        entrada = input(f"Elemento {len(conjunto_A)+1}: ").strip()
+
+        if entrada.lower() in ["sair", "exit"]:
+            exit()
+
+        if entrada.lower() in ["again", "novamente"]:
+            limpar_tela()
+            conjunto_A = []
+            print("Entre com os valores do conjunto A:")
+            continue
+
+        if not valido(entrada):
+            print("Entrada inválida! Use apenas letras e/ou números.")
+            continue
+
+        if entrada not in conjunto_A:
+            conjunto_A.append(entrada)
+        else:
+            print("Elemento repetido!")
+
+        if len(conjunto_A) >= MIN:
+            parar = input("Deseja parar? (s/n): ").lower()
+            if parar == "s":
+                break
