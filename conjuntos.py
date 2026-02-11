@@ -73,7 +73,7 @@ while True:
     # Módulos
     modulo_A = len(set_A)
     modulo_B = len(set_B)
-    uniao_modulos = {modulo_A, modulo_B}
+    # uniao_modulos = {modulo_A, modulo_B}
 
     # Saída
     print("\n--- RESULTADO ---")
@@ -93,7 +93,7 @@ while True:
 
     print("|A|:", modulo_A)
     print("|B|:", modulo_B)
-    print("|A ∪ B|:", uniao_modulos)
+    print("|A ∪ B|:", len(uniao))
 
     comando = input(
         "\nDigite 'again' ou 'novamente' para limpar e continuar.\n"
