@@ -42,6 +42,24 @@
 
 # 
 
+# Funções utilizadas
+
+#
+
+# &nbsp;limpar_tela(): Limpa o terminal para melhorar a visualização do usuário durante a execução do programa.
+
+# &nbsp;valido(valor): Verifica se o valor digitado é alfanumérico (letras e/ou números).
+
+# &nbsp;gerar_elemento_aleatorio(): Cria um elemento alfanumérico aleatório de 1 a 3 caracteres.
+
+# &nbsp;gerar_conjunto_B(): Gera automaticamente o conjunto B com elementos aleatórios, respeitando a cardinalidade mínima e máxima.
+
+# &nbsp;ler_conjunto_A(); Responsável por ler, validar e armazenar os elementos digitados pelo usuário para formar o conjunto A.
+
+# &nbsp;mostrar_resultados(A, B): Realiza todas as operações entre os conjuntos e exibe os resultados na tela.
+
+#
+
 # Comando
 
 # 1\. Abra o terminal na pasta do projeto.
